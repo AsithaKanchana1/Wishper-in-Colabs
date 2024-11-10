@@ -92,11 +92,6 @@ After Whisper completes the transcription, you will find `.txt` and `.srt` files
 
 ---
 
-## 📑 License
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🛠️ Dependencies
 - **Python 3.x**
 - **Whisper**: OpenAI's speech-to-text model.
