@@ -110,7 +110,7 @@ Feel free to fork this repository and submit issues or pull requests. Contributi
 - The **open-source community** for their continued support and contributions to projects like this.
 
 ## 📞 Contact
-For questions or feedback, open an issue in the repository or contact me via [contact.asitha@gmail.com].
+For questions or feedback, open an issue in the repository or contact me via [asitha.contact.me@gmail.com].
 
 ---
 
