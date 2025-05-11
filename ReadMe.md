@@ -64,7 +64,27 @@ The **file ID** is: `xxxxxxxxxxxxxxxxxxxxxxx`.
   Replace `xxxxxxxxxxxxxxxxxxxx` with the actual file ID you copied in Step 2.
 
 
-### Step 5: Run Whisper for Transcription
+## 🔴 Download Youtube Video to Google Colab
+
+### Run following lines to Install the `yt-dlp` Tool
+
+In a code cell, install yt-dlp (a modern alternative to youtube-dl) by running:
+
+```python
+!pip install yt-dlp
+
+```
+
+In the next code cell, use the following code to download a `YouTube` video. Replace the `URL` with your desired video link:
+
+```python
+video_url = "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+!yt-dlp {video_url}
+```
+
+This will download the video file to the current working directory in your Colab environment.
+
+## Step 5: Run Whisper for Transcription
 Run the following code in a new Colab cell to transcribe your uploaded file:
 
 ```bash
@@ -72,7 +92,7 @@ Run the following code in a new Colab cell to transcribe your uploaded file:
 
 ```
 
-### Step 6: Download the Transcription Files
+## Step 6: Download the Transcription Files
 After Whisper completes the transcription, you will find `.txt` and `.srt` files in the Colab environment. To download these files:
 - Right-click on the file.
 - Select **Download** from the context menu to save the transcription files to your local system.
