@@ -99,9 +99,20 @@ This will download the video file to the current working directory in your Colab
 ## Step 5: Run Whisper for Transcription
 
 Run the following code in a new Colab cell to transcribe your uploaded file:
+**Modle Options are small,Medium,Large so choose accoding to your VRAM**
+(Small Modle is not Recomended since it dosent give Best Output)
+
+- for Medium Modle Use this command:
 
 ```bash
 !whisper "YOUR_FILE_NAME" --model medium
+
+```
+
+- For Large Modle Use this command:
+
+```bash
+!wisper "YOUR_FILE_NAME" --model large
 
 ```
 
